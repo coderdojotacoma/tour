@@ -1,7 +1,10 @@
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-x = 6
-y = 5
-z = 28
-blockType = 103
-mc.setBlock(x, y, z, blockType)
+
+y = 0.0
+while y <= 200:
+    x = -3.0
+    z = 33.2
+    blockType = 0
+    mc.setBlock(x, y, z, blockType)
+    y += 1
